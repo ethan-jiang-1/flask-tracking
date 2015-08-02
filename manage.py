@@ -15,5 +15,9 @@ manager.add_command('db',MigrateCommand)
 def hello():
     print "hello"
 
+@manager.command
+def hello_Emma():
+    print "hello Emma jiang, this line is typed by Emma & Dady,hello everybody I am Emma I am very happy to see you .Do you have queitions ?"
+
 if __name__ == "__main__":
     manager.run()
